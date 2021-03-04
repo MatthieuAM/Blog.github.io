@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-size: 16px;
+
+}
+
+
+header {
+
+    width: 100%;
+    background-color: #82C46C;
+    height: 4.8vh;
+position: fixed;
+
+}
+
+
+
+.navbar {
+
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 15%;
+    padding-top: 0.3%;
+    position: fixed;
+}
+
+.logoNavbar {
+
+    font-size: 2em;
+    margin-left: 10%;
+
+
+}
+
+
+
+
+.nop {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+
+
+
+#recherche {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 5%;
+    margin-top: 2px;
+    height: 3vh;
+
+}
+
+#recherche input {
+
+    width: 13vw;
+    border: none;
+    background-color: #82c46c;
+    border-bottom: 2px solid white;
+
+
+}
+
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+
+#recherche .loupe {
+    background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
+    width: 1.8vw;
+    height: 3vh;
+    margin: 2%;
+    border: none;
+    filter: brightness(200);
+
+}
+
+
+.listeNav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
+
+}
+
+.listeNav li {
+
+    list-style: none;
+    margin-left: 15%;
+
+}
+
+
+.listeNav a {
+
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    font-family: 'roboto'
+}
+
+
+
+
+
+
+
+.monMain {
+
+    width: 60%;
+    height: 149vh;
+    background-color: rgba(228, 228, 228, 0.37);
+
+    margin-left: 20%;
+    margin-top: 0;
+
+
+}
+
+.hero {
+
+    height: 42vh;
+    width: 100%;
+    background-color: #82c46c85;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+
+}
+
+.sectionHero {
+
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 0;
+
+
+}
+
+
+.text {
+
+    font-size: 3em;
+    width: 50%;
+    color: rgb(23, 37, 23);
+    margin-left: 50%;
+    padding-top: 10%;
+
+
+
+
+}
+
+
+
+#recherche2 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 5%;
+
+    height: 5.1vh;
+    margin-left: 50%;
+
+    padding-top: 0.5%;
+
+
+}
+
+#recherche2 input {
+
+    width: 25vw;
+    border: none;
+    background-color: #BEE0B2;
+    border: 3px solid #6da859;
+    border-radius: 10px;
+
+
+}
+
+::-webkit-input-placeholder {
+    color: rgb(0, 15, 1);
+}
+
+
+#recherche2 .loupe {
+    background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
+    width: 1.7vw;
+    height: 3vh;
+    margin: 2%;
+    border: none;
+   
+
+
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+.imageHead {
+
+    height: 42vh;
+    width: 50%;
+    margin-right: 17.5%;
+
+
+}
+
+/* ----------------------------------------- */
+
+.titreVedette {
+
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 2.6%;
+    margin-left: 2%;
+
+}
+
+
+h2 {
+
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 2.6%;
+    margin-left: 2%;
+
+
+}
+
+.articleVedette {
+
+    margin-top: 1%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+
+
+.articleVedette div {
+
+    border: 2px solid black;
+    height: 20vh;
+    width: 30%;
+    margin-right: 2%;
+
+
+}
+
+
+
+.article1 {
+
+
+    margin-left: 2%;
+
+
+}
+
+
+
+/* ----------------------------------------- */
+
+.titreVideo {
+
+
+    margin-top: 2.6%;
+    margin-left: 2%;
+
+}
+
+
+.titreVideo a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+.video {
+
+    margin-top: 1%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+}
+
+
+.video div {
+
+    border: 2px solid black;
+    height: 20vh;
+    width: 30%;
+    margin-right: 2%;
+
+
+}
+
+
+.container{
+
+
+
+
+
+}
+
+.image{
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+/* display: block; */
+
+}
+
+
+
+/* ----------------------------------------- */
+
+.titreDofus {
+
+
+    margin-top: 2.6%;
+    margin-left: 2%;
+
+}
+
+
+.titreDofus a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-decoration: none;
+
+}
+
+
+
+.articleDofus {
+
+    margin-top: 1%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+}
+
+
+.articleDofus div {
+
+    border: 2px solid black;
+    height: 20vh;
+    width: 30%;
+    margin-right: 2%;
+
+
+}
+
+
+/* ----------------------------------------- */
+
+
+.titreDofusRetro {
+
+
+    margin-top: 2.6%;
+    margin-left: 2%;
+
+}
+
+
+.titreDofusRetro a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-decoration: none;
+
+}
+
+
+
+.articleDofusRetro {
+
+    margin-top: 1%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+}
+
+
+.articleDofusRetro div {
+
+    border: 2px solid black;
+    height: 20vh;
+    width: 30%;
+    margin-right: 2%;
+
+
+}
+
+
+/* ----------------------------------------- */
+
+
+.titreDofusTouch {
+
+
+    margin-top: 2.6%;
+    margin-left: 2%;
+
+}
+
+
+.titreDofusTouch a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-decoration: none;
+
+}
+
+
+
+.articleDofusTouch {
+
+    margin-top: 1%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+
+.articleDofusTouch div {
+
+    border: 2px solid black;
+    height: 20vh;
+    width: 30%;
+    margin-right: 2%;
+
+
+}
+
+
+footer {
+
+    width: 100%;
+    height: 23vh;
+    background-color: #82C46C;
+   
+
+    display: grid;
+    grid-template-columns: 300px 198px 200px;
+    grid-template-rows: 80px 85px;
+    padding: 2% 30%;
+
+}
+
+
+
+
+
+
+.un {
+
+    /* background-color: green; */
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.titreFooter{
+
+font-size: 3em;
+text-align: center;
+padding-top: 3%;
+    
+}
+
+/* -------------------------------------- */
+
+.deux {
+
+    /* background-color: rgb(255, 255, 255); */
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.listeFooter1{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+}
+
+.listeFooter1 li{
+
+list-style: none;
+    margin-top: 2%;
+
+    
+    }
+
+    .listeFooter1 a{
+
+        text-decoration: none;
+        color: rgb(65, 65, 65);
+        
+            
+            }
+        
+/* -------------------------------------- */
+
+.trois {
+
+    /* background-color: rgb(0, 3, 0); */
+    grid-column: 3;
+    grid-row: 1;
+
+
+}
+
+.listeFooter2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    }
+    
+    .listeFooter2 li{
+    
+    list-style: none;
+        margin-top: 2%;
+    
+        
+        }
+    
+        .listeFooter2 a{
+    
+            text-decoration: none; 
+            color: rgb(65, 65, 65);
+            font-family: 'roboto'
+            
+                }
+
+
+
+
+.quatre {
+
+    /* background-color: rgb(0, 3, 0); */
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 50%;
+    width: 100%;
+
+
+}
+
+.reseauxSociaux{
+
+text-align: center;
+margin-top: 32px;
+
+}
+
+.reseauxSociaux a{
+
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    }
+
+    .fa-youtube{
+
+        width: 40px;
+        height: 40px;
+        background-color: #99ea7e;
+        border-radius: 100% 100%;
+        padding-top: 8px;
+        color: rgb(65, 65, 65);
+
+    }
+
+    .fa-tiktok{
+
+        width: 40px;
+        height: 40px;
+        background-color: #99ea7e;
+        border-radius: 100% 100%;
+        padding-top: 8px;
+        color: rgb(65, 65, 65);
+
+    }
+
+    .fa-twitter{
+
+        width: 40px;
+        height: 40px;
+        background-color: #99ea7e;
+        border-radius: 100% 100%;
+        padding-top: 8px;
+        color: rgb(65, 65, 65);
+
+    }

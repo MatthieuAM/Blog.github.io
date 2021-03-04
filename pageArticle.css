@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-size: 16px;
+
+}
+
+body{
+
+background-color: #f3f3f3;
+
+}
+
+header {
+
+    width: 100%;
+    background-color: #82C46C;
+    height: 4.8vh;
+position: fixed;
+
+}
+
+
+
+.navbar {
+
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 15%;
+    padding-top: 0.3%;
+    position: fixed;
+}
+
+.logoNavbar {
+
+    font-size: 2em;
+    margin-left: 12%;
+
+
+}
+
+
+
+
+.nop {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+
+
+
+#recherche {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 5%;
+    margin-top: 2px;
+    height: 3vh;
+
+}
+
+#recherche input {
+
+    width: 13vw;
+    border: none;
+    background-color: #82c46c;
+    border-bottom: 2px solid white;
+
+
+}
+
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+
+#recherche .loupe {
+    background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
+    width: 1.8vw;
+    height: 3vh;
+    margin: 2%;
+    border: none;
+    filter: brightness(200);
+
+}
+
+
+.listeNav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
+
+}
+
+.listeNav li {
+
+    list-style: none;
+    margin-left: 15%;
+
+}
+
+
+.listeNav a {
+
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    font-family: 'roboto'
+}
+
+
+.monMain {
+
+    width: 40%;
+ 
+    background-color: rgba(228, 228, 228, 0.37);
+
+    margin-left: 22.2%;
+    margin-top: 0;
+    padding-top: 3%;
+
+
+}
+
+
+
+
+.head{
+
+
+
+background-color: white;
+width: 100%;
+
+}
+
+.head li{
+
+padding-top: 10px;
+margin-left: 20px;
+list-style: none;
+
+
+}
+
+.head a {
+
+text-decoration: none;
+color: #5fa846;
+
+}
+
+h1{
+
+font-size: 2em;
+margin-left: 20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+padding-top: 20px;
+color: rgb(29, 29, 29) ;
+
+}
+
+.introduction{
+
+width: 100%;
+height: 50%;
+background-color: rgb(156, 156, 156);
+
+
+}
+
+.paragrapheHead{
+
+margin-left: 20px;
+padding-top: 20px;
+padding-bottom:15px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+color: rgb(39, 39, 39);
+}
+
+.corps{
+
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.image{
+
+width: 100%;
+
+
+}
+
+.paraCorps{
+
+margin-top: 10px;
+padding-bottom: 20px;
+margin-left: 20px;
+font-size: 1em;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+color: rgb(39, 39, 39);
+
+}
+
+.chiffre{
+font-size: 2.8em;
+font-weight: bold;
+color: rgb(65, 65, 65);
+margin-left: 21px;
+margin-right: 5px;
+}
+
+
+/* ------------------------------------ FOOTER */
+
+
+
+footer {
+
+    width: 100%;
+    height: 23vh;
+    background-color: #82C46C;
+   
+
+    display: grid;
+    grid-template-columns: 300px 198px 200px;
+    grid-template-rows: 80px 85px;
+    padding: 2% 30%;
+
+}
+
+
+
+
+
+
+.un {
+
+    /* background-color: green; */
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.titreFooter{
+
+font-size: 3em;
+text-align: center;
+padding-top: 3%;
+    
+}
+
+/* -------------------------------------- */
+
+.deux {
+
+    /* background-color: rgb(255, 255, 255); */
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.listeFooter1{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+}
+
+.listeFooter1 li{
+
+list-style: none;
+    margin-top: 2%;
+
+    
+    }
+
+    .listeFooter1 a{
+
+        text-decoration: none;
+        color: rgb(65, 65, 65);
+        
+            
+            }
+        
+/* -------------------------------------- */
+
+.trois {
+
+    /* background-color: rgb(0, 3, 0); */
+    grid-column: 3;
+    grid-row: 1;
+
+
+}
+
+.listeFooter2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    }
+    
+    .listeFooter2 li{
+    
+    list-style: none;
+        margin-top: 2%;
+    
+        
+        }
+    
+        .listeFooter2 a{
+    
+            text-decoration: none; 
+            color: rgb(65, 65, 65);
+            font-family: 'roboto'
+            
+                }
+
+
+
+
+.quatre {
+
+    /* background-color: rgb(0, 3, 0); */
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 50%;
+    width: 100%;
+
+
+}
+
+.reseauxSociaux{
+
+text-align: center;
+margin-top: 32px;
+
+}
+
+.reseauxSociaux a{
+
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    }
+
+    .fa-youtube{
+
+        width: 40px;
+        height: 40px;
+        background-color: #99ea7e;
+        border-radius: 100% 100%;
+        padding-top: 8px;
+        color: rgb(65, 65, 65);
+
+    }
+
+    .fa-tiktok{
+
+        width: 40px;
+        height: 40px;
+        background-color: #99ea7e;
+        border-radius: 100% 100%;
+        padding-top: 8px;
+        color: rgb(65, 65, 65);
+
+    }
+
+    .fa-twitter{
+
+        width: 40px;
+        height: 40px;
+        background-color: #99ea7e;
+        border-radius: 100% 100%;
+        padding-top: 8px;
+        color: rgb(65, 65, 65);
+
+    }
